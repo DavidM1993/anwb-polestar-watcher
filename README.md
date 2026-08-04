@@ -27,8 +27,10 @@ Runs on **GitHub Actions** on a schedule — your PC can stay off. Cost: €0.
 ```powershell
 cd ~/Projects/anwb-polestar-watcher
 $env:TELEGRAM_BOT_TOKEN = "PASTE_TOKEN_HERE"
-npm run telegram:chatid
+node scripts/telegram-chatid.js
 ```
+
+(You can also copy [`.env.example`](.env.example) to `.env` and fill it in — do not commit `.env`.)
 
 Copy the numeric chat ID it prints.
 
