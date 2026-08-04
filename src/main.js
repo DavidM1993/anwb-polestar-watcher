@@ -161,18 +161,41 @@ async function main() {
     `Fetched ${listings.length} occasions; ${matches.length} match brand "${BRAND_FILTER}"`
   );
 
-  const newOnes = findNewMatches(matches, previouslySeen);
-  console.log(`New ${BRAND_FILTER} listings: ${newOnes.length}`);
+  const isSeed = previouslySeen.size === 0;
+  const newListings = findNewMatches(listings, previouslySeen);
+  const newPolestars = filterByBrand(newListings, BRAND_FILTER);
+  const newBrands = [
+    ...new Set(newListings.map((l) => l.brand).filter(Boolean)),
+  ].sort((a, b) => a.localeCompare(b, "nl"));
 
-  if (newOnes.length > 0) {
-    await notifyNewListings(token, chatId, newOnes);
+  console.log(
+    `New listings: ${newListings.length} (brands: ${newBrands.join(", ") || "—"}); new ${BRAND_FILTER}: ${newPolestars.length}; seed=${isSeed}`
+  );
+
+  // After the first inventory seed, notify when anything new appears (brand only).
+  if (!isSeed && newBrands.length > 0) {
+    await sendMessage({
+      token,
+      chatId,
+      text: `Nieuwe occasions: ${newBrands.map(escapeHtml).join(", ")}`,
+      disablePreview: true,
+    });
+  }
+
+  if (newPolestars.length > 0) {
+    await notifyNewListings(token, chatId, newPolestars);
   } else if (isTest) {
     await sendMessage({
       token,
       chatId,
       text:
         `Check OK: ${listings.length} occasions, ` +
-        `${matches.length} ${escapeHtml(BRAND_FILTER)} (geen nieuwe).`,
+        `${matches.length} ${escapeHtml(BRAND_FILTER)}` +
+        (isSeed
+          ? " (inventory seeded)."
+          : newBrands.length
+            ? "."
+            : " (geen nieuwe)."),
       disablePreview: true,
     });
   }
@@ -186,22 +209,18 @@ async function main() {
     });
   }
 
-  // Track all currently matching IDs as seen (so we don't re-notify)
-  for (const m of matches) {
-    previouslySeen.add(m.leasecarId);
-    state.listings[m.leasecarId] = m;
-  }
-  // Drop IDs that disappeared so a reappearance notifies again
-  const currentMatchIds = new Set(matches.map((m) => m.leasecarId));
-  state.seenIds = [...previouslySeen].filter((id) => currentMatchIds.has(id));
-  // Also keep seenIds for matches we notified even if filter brand changes?
-  // Plan: "If a Polestar disappears and comes back it's treated as new."
-  // So only keep currently present match IDs. Done above.
-
-  // Prune listings snapshot to current matches
+  // Track full inventory so "new" means any newly appeared occasion.
+  // Dropped cars are forgotten so a reappearance notifies again.
+  const currentIds = new Set(listings.map((l) => l.leasecarId));
+  state.seenIds = [...currentIds];
   const pruned = {};
-  for (const id of state.seenIds) {
-    if (state.listings[id]) pruned[id] = state.listings[id];
+  for (const listing of listings) {
+    pruned[listing.leasecarId] = {
+      brand: listing.brand,
+      model: listing.model,
+      monthlyPrice: listing.monthlyPrice,
+      url: listing.url,
+    };
   }
   state.listings = pruned;
 
