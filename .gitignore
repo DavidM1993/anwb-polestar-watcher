@@ -1,0 +1,16 @@
+node_modules/
+discovery-output/
+tmp.json
+anwb_page.html
+cars.json
+br.json
+robots.txt
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+playwright-report/
+test-results/
+.playwright/

@@ -1,0 +1,22 @@
+{
+  "name": "anwb-polestar-watcher",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Watch ANWB private lease occasions for Polestar and notify via Telegram",
+  "scripts": {
+    "discover": "node scripts/discover.js",
+    "check": "node src/main.js",
+    "check:test": "node src/main.js --test",
+    "should-run": "node scripts/should-run.js",
+    "telegram:chatid": "node scripts/telegram-chatid.js",
+    "telegram:test": "node scripts/telegram-test.js",
+    "test:api": "node scripts/test-api.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "optionalDependencies": {
+    "playwright": "^1.54.2"
+  }
+}

@@ -1,0 +1,76 @@
+name: Check ANWB for Polestar
+
+on:
+  schedule:
+    # Every 20 minutes UTC; Amsterdam gate decides if a real check is due.
+    - cron: "*/20 * * * *"
+  workflow_dispatch:
+    inputs:
+      test:
+        description: "Force a check and send a Telegram test message"
+        required: false
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci --omit=optional
+
+      - name: Decide whether to run
+        id: gate
+        env:
+          FORCE_CHECK: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}
+          INPUT_TEST: ${{ inputs.test }}
+        run: node scripts/should-run.js
+
+      - name: Scrape and notify
+        if: steps.gate.outputs.should_run == 'true'
+        id: scrape
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          BRAND_FILTER: polestar
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.test }}" = "true" ]; then
+            node src/main.js --test
+          else
+            node src/main.js
+          fi
+
+      # Always persist state after a real check so failure counters survive
+      # across runs. Volume is low (~20 commits/day) because of the Amsterdam gate.
+      - name: Commit state
+        if: steps.gate.outputs.should_run == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          if [ ! -f state/seen.json ]; then
+            echo "No state file; nothing to commit"
+            exit 0
+          fi
+
+          if git diff --quiet -- state/seen.json; then
+            echo "State unchanged; skipping commit"
+            exit 0
+          fi
+
+          git add state/seen.json
+          git commit -m "chore: update watcher state $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
