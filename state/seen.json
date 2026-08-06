@@ -1,14 +1,14 @@
 {
-  "lastCheckAt": "2026-08-06T12:22:51.806Z",
-  "lastAttemptAt": "2026-08-06T12:22:51.174Z",
+  "lastCheckAt": "2026-08-06T14:58:50.159Z",
+  "lastAttemptAt": "2026-08-06T14:58:48.679Z",
   "seenIds": [
     "Z973GG",
     "L750SV",
     "L790RS",
     "R573SV",
     "L102FV",
-    "X082LG",
-    "X521FD",
+    "L517SF",
+    "GHT88S",
     "L498RB",
     "S745VH",
     "L519PT",
@@ -16,58 +16,57 @@
     "Z381DS",
     "J772XN",
     "P483FJ",
-    "T036DB",
     "T139RL",
+    "T036DB",
     "L640JZ",
     "HGR46K",
     "L584NK",
     "L075HS",
     "N378BJ",
-    "T488PL",
     "L731RK",
+    "T488PL",
     "HZK31Z",
     "L314PF",
     "Z439BS",
     "Z624FF",
-    "L115RN",
-    "JRV76J",
     "L598RX",
+    "L115RN",
     "K475LS",
+    "JRV76J",
     "T572FP",
     "HJZ03D",
     "HRN87V",
     "P225VG",
     "K726RH",
-    "L741GR",
+    "L620GD",
     "L204NP",
     "K699LB",
-    "JRK07S",
     "P111TT",
+    "JRK07S",
     "R608VG",
     "T987KZ",
     "P198NT",
     "L913LH",
     "K608TS",
-    "L253JF",
     "L468HF",
+    "L253JF",
     "K268DS",
     "S640BX",
     "R017KH",
     "K387FX",
     "L395GR",
-    "T572DX",
     "L574PH",
+    "T572DX",
     "N011PV",
     "L822RP",
-    "L083KR",
     "P053NT",
+    "L999FH",
     "L358RZ",
     "N350RK",
     "L630PH",
     "L241GN",
-    "R358SR",
-    "P563SP",
     "P168PZ",
+    "P563SP",
     "R648BF",
     "P037BN",
     "P365BP",
@@ -75,25 +74,25 @@
     "N677TN",
     "P293VZ",
     "L287VR",
+    "R983DD",
     "P626BP",
     "P193TN",
     "L496LX",
     "L507DX",
     "N770KR",
-    "N728PL",
+    "R762BS",
     "P441HX",
+    "N728PL",
     "GHV22K",
     "L702FG",
     "P557BZ",
     "L759HF",
     "L838LS",
-    "P027BT",
     "N123RR",
     "P462RF",
     "N550PV",
     "N663RF",
     "L282VH",
-    "L900FG",
     "P765DK",
     "P743TG",
     "X082LL",
@@ -130,17 +129,17 @@
       "monthlyPrice": 254,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L102FV&condition=occasion"
     },
-    "X082LG": {
+    "L517SF": {
       "brand": "Kia",
       "model": "Picanto",
       "monthlyPrice": 264,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=X082LG&condition=occasion"
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L517SF&condition=occasion"
     },
-    "X521FD": {
+    "GHT88S": {
       "brand": "Toyota",
       "model": "AYGO X",
       "monthlyPrice": 279,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=X521FD&condition=occasion"
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=GHT88S&condition=occasion"
     },
     "L498RB": {
       "brand": "Peugeot",
@@ -184,17 +183,17 @@
       "monthlyPrice": 304,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=P483FJ&condition=occasion"
     },
-    "T036DB": {
-      "brand": "Ford",
-      "model": "Fiesta",
-      "monthlyPrice": 314,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=T036DB&condition=occasion"
-    },
     "T139RL": {
       "brand": "Renault",
       "model": "Clio",
       "monthlyPrice": 314,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=T139RL&condition=occasion"
+    },
+    "T036DB": {
+      "brand": "Ford",
+      "model": "Fiesta",
+      "monthlyPrice": 314,
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=T036DB&condition=occasion"
     },
     "L640JZ": {
       "brand": "Suzuki",
@@ -226,17 +225,17 @@
       "monthlyPrice": 339,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=N378BJ&condition=occasion"
     },
-    "T488PL": {
-      "brand": "Renault",
-      "model": "Twingo",
-      "monthlyPrice": 349,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=T488PL&condition=occasion"
-    },
     "L731RK": {
       "brand": "Toyota",
       "model": "Yaris",
       "monthlyPrice": 349,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L731RK&condition=occasion"
+    },
+    "T488PL": {
+      "brand": "Renault",
+      "model": "Twingo",
+      "monthlyPrice": 349,
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=T488PL&condition=occasion"
     },
     "HZK31Z": {
       "brand": "Dacia",
@@ -262,29 +261,29 @@
       "monthlyPrice": 369,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=Z624FF&condition=occasion"
     },
-    "L115RN": {
-      "brand": "Renault",
-      "model": "Captur",
-      "monthlyPrice": 369,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L115RN&condition=occasion"
-    },
-    "JRV76J": {
-      "brand": "Mazda",
-      "model": "Mazda2 Hybrid",
-      "monthlyPrice": 369,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=JRV76J&condition=occasion"
-    },
     "L598RX": {
       "brand": "Volkswagen",
       "model": "Polo",
       "monthlyPrice": 369,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L598RX&condition=occasion"
     },
+    "L115RN": {
+      "brand": "Renault",
+      "model": "Captur",
+      "monthlyPrice": 369,
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L115RN&condition=occasion"
+    },
     "K475LS": {
       "brand": "Seat",
       "model": "Ibiza",
       "monthlyPrice": 369,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=K475LS&condition=occasion"
+    },
+    "JRV76J": {
+      "brand": "Mazda",
+      "model": "Mazda2 Hybrid",
+      "monthlyPrice": 369,
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=JRV76J&condition=occasion"
     },
     "T572FP": {
       "brand": "Nissan",
@@ -316,11 +315,11 @@
       "monthlyPrice": 384,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=K726RH&condition=occasion"
     },
-    "L741GR": {
+    "L620GD": {
       "brand": "Citroen",
       "model": "C3 Aircross",
       "monthlyPrice": 389,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L741GR&condition=occasion"
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L620GD&condition=occasion"
     },
     "L204NP": {
       "brand": "Skoda",
@@ -334,17 +333,17 @@
       "monthlyPrice": 394,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=K699LB&condition=occasion"
     },
-    "JRK07S": {
-      "brand": "Ford",
-      "model": "Puma Hybrid",
-      "monthlyPrice": 399,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=JRK07S&condition=occasion"
-    },
     "P111TT": {
       "brand": "Kia",
       "model": "Ceed Sportswagon",
       "monthlyPrice": 399,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=P111TT&condition=occasion"
+    },
+    "JRK07S": {
+      "brand": "Ford",
+      "model": "Puma Hybrid",
+      "monthlyPrice": 399,
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=JRK07S&condition=occasion"
     },
     "R608VG": {
       "brand": "Opel",
@@ -376,17 +375,17 @@
       "monthlyPrice": 414,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=K608TS&condition=occasion"
     },
-    "L253JF": {
-      "brand": "Kia",
-      "model": "e-Niro",
-      "monthlyPrice": 424,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L253JF&condition=occasion"
-    },
     "L468HF": {
       "brand": "Skoda",
       "model": "Scala",
       "monthlyPrice": 424,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L468HF&condition=occasion"
+    },
+    "L253JF": {
+      "brand": "Kia",
+      "model": "e-Niro",
+      "monthlyPrice": 424,
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L253JF&condition=occasion"
     },
     "K268DS": {
       "brand": "Toyota",
@@ -418,17 +417,17 @@
       "monthlyPrice": 434,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L395GR&condition=occasion"
     },
-    "T572DX": {
-      "brand": "DS",
-      "model": "DS 3",
-      "monthlyPrice": 439,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=T572DX&condition=occasion"
-    },
     "L574PH": {
       "brand": "Citroen",
       "model": "C4",
       "monthlyPrice": 439,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L574PH&condition=occasion"
+    },
+    "T572DX": {
+      "brand": "DS",
+      "model": "DS 3",
+      "monthlyPrice": 439,
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=T572DX&condition=occasion"
     },
     "N011PV": {
       "brand": "Hyundai",
@@ -442,17 +441,17 @@
       "monthlyPrice": 444,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L822RP&condition=occasion"
     },
-    "L083KR": {
-      "brand": "Volkswagen",
-      "model": "T-Cross",
-      "monthlyPrice": 444,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L083KR&condition=occasion"
-    },
     "P053NT": {
       "brand": "Toyota",
       "model": "Corolla Touring Sports",
       "monthlyPrice": 444,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=P053NT&condition=occasion"
+    },
+    "L999FH": {
+      "brand": "Volkswagen",
+      "model": "T-Cross",
+      "monthlyPrice": 444,
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L999FH&condition=occasion"
     },
     "L358RZ": {
       "brand": "Mini",
@@ -478,23 +477,17 @@
       "monthlyPrice": 464,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L241GN&condition=occasion"
     },
-    "R358SR": {
-      "brand": "Toyota",
-      "model": "Yaris Cross",
-      "monthlyPrice": 469,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=R358SR&condition=occasion"
+    "P168PZ": {
+      "brand": "Peugeot",
+      "model": "3008",
+      "monthlyPrice": 479,
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=P168PZ&condition=occasion"
     },
     "P563SP": {
       "brand": "Renault",
       "model": "Kadjar",
       "monthlyPrice": 479,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=P563SP&condition=occasion"
-    },
-    "P168PZ": {
-      "brand": "Peugeot",
-      "model": "3008",
-      "monthlyPrice": 479,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=P168PZ&condition=occasion"
     },
     "R648BF": {
       "brand": "Audi",
@@ -538,6 +531,12 @@
       "monthlyPrice": 499,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L287VR&condition=occasion"
     },
+    "R983DD": {
+      "brand": "Hyundai",
+      "model": "Tucson",
+      "monthlyPrice": 509,
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=R983DD&condition=occasion"
+    },
     "P626BP": {
       "brand": "Volkswagen",
       "model": "ID.4",
@@ -568,17 +567,23 @@
       "monthlyPrice": 574,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=N770KR&condition=occasion"
     },
-    "N728PL": {
-      "brand": "Peugeot",
-      "model": "5008",
-      "monthlyPrice": 579,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=N728PL&condition=occasion"
+    "R762BS": {
+      "brand": "Volvo",
+      "model": "XC40 Recharge",
+      "monthlyPrice": 574,
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=R762BS&condition=occasion"
     },
     "P441HX": {
       "brand": "Kia",
       "model": "EV6",
       "monthlyPrice": 579,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=P441HX&condition=occasion"
+    },
+    "N728PL": {
+      "brand": "Peugeot",
+      "model": "5008",
+      "monthlyPrice": 579,
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=N728PL&condition=occasion"
     },
     "GHV22K": {
       "brand": "Mini",
@@ -610,12 +615,6 @@
       "monthlyPrice": 614,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L838LS&condition=occasion"
     },
-    "P027BT": {
-      "brand": "Hyundai",
-      "model": "Tucson",
-      "monthlyPrice": 614,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=P027BT&condition=occasion"
-    },
     "N123RR": {
       "brand": "Tesla",
       "model": "Model 3",
@@ -646,12 +645,6 @@
       "monthlyPrice": 659,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L282VH&condition=occasion"
     },
-    "L900FG": {
-      "brand": "Volvo",
-      "model": "XC40 Recharge",
-      "monthlyPrice": 714,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L900FG&condition=occasion"
-    },
     "P765DK": {
       "brand": "BMW",
       "model": "4 Serie Gran Coupé",
@@ -679,5 +672,5 @@
   },
   "consecutiveFailures": 0,
   "failureAlertSent": false,
-  "nextDayIntervalMinutes": 40
+  "nextDayIntervalMinutes": 20
 }
