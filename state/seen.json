@@ -1,6 +1,6 @@
 {
-  "lastCheckAt": "2026-08-08T08:19:51.120Z",
-  "lastAttemptAt": "2026-08-08T08:19:49.953Z",
+  "lastCheckAt": "2026-08-08T09:07:05.139Z",
+  "lastAttemptAt": "2026-08-08T09:07:03.699Z",
   "seenIds": [
     "L105GB",
     "L102FV",
@@ -37,8 +37,8 @@
     "L204NP",
     "L620GD",
     "K699LB",
-    "JRK07S",
     "P111TT",
+    "JRK07S",
     "R608VG",
     "T987KZ",
     "P198NT",
@@ -80,7 +80,6 @@
     "L496LX",
     "R762BS",
     "N770KR",
-    "N728PL",
     "P441HX",
     "GHV22K",
     "L702FG",
@@ -311,17 +310,17 @@
       "monthlyPrice": 394,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=K699LB&condition=occasion"
     },
-    "JRK07S": {
-      "brand": "Ford",
-      "model": "Puma Hybrid",
-      "monthlyPrice": 399,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=JRK07S&condition=occasion"
-    },
     "P111TT": {
       "brand": "Kia",
       "model": "Ceed Sportswagon",
       "monthlyPrice": 399,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=P111TT&condition=occasion"
+    },
+    "JRK07S": {
+      "brand": "Ford",
+      "model": "Puma Hybrid",
+      "monthlyPrice": 399,
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=JRK07S&condition=occasion"
     },
     "R608VG": {
       "brand": "Opel",
@@ -568,12 +567,6 @@
       "model": "IONIQ 5",
       "monthlyPrice": 574,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=N770KR&condition=occasion"
-    },
-    "N728PL": {
-      "brand": "Peugeot",
-      "model": "5008",
-      "monthlyPrice": 579,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=N728PL&condition=occasion"
     },
     "P441HX": {
       "brand": "Kia",
