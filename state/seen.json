@@ -1,6 +1,6 @@
 {
-  "lastCheckAt": "2026-08-09T09:21:35.801Z",
-  "lastAttemptAt": "2026-08-09T09:21:34.802Z",
+  "lastCheckAt": "2026-08-09T10:13:13.139Z",
+  "lastAttemptAt": "2026-08-09T10:13:12.169Z",
   "seenIds": [
     "J736LL",
     "Z494GB",
@@ -13,7 +13,7 @@
     "L519PT",
     "S513RL",
     "P483FJ",
-    "R241PX",
+    "T036DB",
     "T763RN",
     "L640JZ",
     "X504ZF",
@@ -162,11 +162,11 @@
       "monthlyPrice": 304,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=P483FJ&condition=occasion"
     },
-    "R241PX": {
+    "T036DB": {
       "brand": "Ford",
       "model": "Fiesta",
       "monthlyPrice": 314,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=R241PX&condition=occasion"
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=T036DB&condition=occasion"
     },
     "T763RN": {
       "brand": "Renault",
@@ -651,5 +651,5 @@
   },
   "consecutiveFailures": 0,
   "failureAlertSent": false,
-  "nextDayIntervalMinutes": 20
+  "nextDayIntervalMinutes": 40
 }
