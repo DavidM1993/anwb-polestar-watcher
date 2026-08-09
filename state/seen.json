@@ -1,6 +1,6 @@
 {
-  "lastCheckAt": "2026-08-09T11:34:50.450Z",
-  "lastAttemptAt": "2026-08-09T11:34:49.174Z",
+  "lastCheckAt": "2026-08-09T12:01:14.205Z",
+  "lastAttemptAt": "2026-08-09T12:01:13.076Z",
   "seenIds": [
     "J736LL",
     "Z494GB",
@@ -10,7 +10,6 @@
     "L782FR",
     "GPP63D",
     "L498RB",
-    "S745VH",
     "L519PT",
     "S513RL",
     "T763RN",
@@ -144,12 +143,6 @@
       "model": "108 TOP!",
       "monthlyPrice": 284,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L498RB&condition=occasion"
-    },
-    "S745VH": {
-      "brand": "Volkswagen",
-      "model": "Up!",
-      "monthlyPrice": 289,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=S745VH&condition=occasion"
     },
     "L519PT": {
       "brand": "Nissan",
@@ -658,5 +651,5 @@
   },
   "consecutiveFailures": 0,
   "failureAlertSent": false,
-  "nextDayIntervalMinutes": 20
+  "nextDayIntervalMinutes": 40
 }
