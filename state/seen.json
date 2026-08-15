@@ -1,6 +1,6 @@
 {
-  "lastCheckAt": "2026-08-15T15:28:40.270Z",
-  "lastAttemptAt": "2026-08-15T15:28:39.091Z",
+  "lastCheckAt": "2026-08-15T15:54:10.092Z",
+  "lastAttemptAt": "2026-08-15T15:54:08.892Z",
   "seenIds": [
     "R179KJ",
     "J736LL",
@@ -630,5 +630,5 @@
   },
   "consecutiveFailures": 0,
   "failureAlertSent": false,
-  "nextDayIntervalMinutes": 20
+  "nextDayIntervalMinutes": 40
 }
