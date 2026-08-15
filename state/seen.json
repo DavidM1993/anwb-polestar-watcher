@@ -1,12 +1,12 @@
 {
-  "lastCheckAt": "2026-08-15T13:32:07.137Z",
-  "lastAttemptAt": "2026-08-15T13:32:05.752Z",
+  "lastCheckAt": "2026-08-15T13:57:18.053Z",
+  "lastAttemptAt": "2026-08-15T13:57:16.435Z",
   "seenIds": [
     "R179KJ",
     "L102FV",
     "N304VZ",
-    "L759KF",
     "L782FR",
+    "L519BD",
     "L395PK",
     "S798FB",
     "S745VH",
@@ -110,17 +110,17 @@
       "monthlyPrice": 259,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=N304VZ&condition=occasion"
     },
-    "L759KF": {
-      "brand": "Toyota",
-      "model": "Aygo",
-      "monthlyPrice": 259,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L759KF&condition=occasion"
-    },
     "L782FR": {
       "brand": "Hyundai",
       "model": "i10",
       "monthlyPrice": 259,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L782FR&condition=occasion"
+    },
+    "L519BD": {
+      "brand": "Toyota",
+      "model": "Aygo",
+      "monthlyPrice": 259,
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L519BD&condition=occasion"
     },
     "L395PK": {
       "brand": "Kia",
@@ -623,5 +623,5 @@
   },
   "consecutiveFailures": 0,
   "failureAlertSent": false,
-  "nextDayIntervalMinutes": 20
+  "nextDayIntervalMinutes": 40
 }
