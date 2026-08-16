@@ -1,6 +1,6 @@
 {
-  "lastCheckAt": "2026-08-16T08:39:35.381Z",
-  "lastAttemptAt": "2026-08-16T08:39:34.312Z",
+  "lastCheckAt": "2026-08-16T09:03:24.491Z",
+  "lastAttemptAt": "2026-08-16T09:03:23.737Z",
   "seenIds": [
     "R179KJ",
     "J736LL",
@@ -8,7 +8,6 @@
     "L782FR",
     "L519BD",
     "L395PK",
-    "Z554RJ",
     "L724RJ",
     "S745VH",
     "Z381DS",
@@ -129,12 +128,6 @@
       "model": "Picanto",
       "monthlyPrice": 264,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L395PK&condition=occasion"
-    },
-    "Z554RJ": {
-      "brand": "Fiat",
-      "model": "500",
-      "monthlyPrice": 274,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=Z554RJ&condition=occasion"
     },
     "L724RJ": {
       "brand": "Nissan",
@@ -637,5 +630,5 @@
   },
   "consecutiveFailures": 0,
   "failureAlertSent": false,
-  "nextDayIntervalMinutes": 20
+  "nextDayIntervalMinutes": 40
 }
