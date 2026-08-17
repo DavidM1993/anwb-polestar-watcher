@@ -1,11 +1,11 @@
 {
-  "lastCheckAt": "2026-08-17T09:22:19.052Z",
-  "lastAttemptAt": "2026-08-17T09:22:18.030Z",
+  "lastCheckAt": "2026-08-17T10:14:00.698Z",
+  "lastAttemptAt": "2026-08-17T10:13:59.090Z",
   "seenIds": [
     "R179KJ",
     "L750SV",
     "L102FV",
-    "GVK06G",
+    "L782FR",
     "L415PF",
     "S798FB",
     "L724RJ",
@@ -110,11 +110,11 @@
       "monthlyPrice": 254,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L102FV&condition=occasion"
     },
-    "GVK06G": {
+    "L782FR": {
       "brand": "Hyundai",
       "model": "i10",
       "monthlyPrice": 259,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=GVK06G&condition=occasion"
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L782FR&condition=occasion"
     },
     "L415PF": {
       "brand": "Kia",
