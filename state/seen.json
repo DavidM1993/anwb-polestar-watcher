@@ -1,6 +1,6 @@
 {
-  "lastCheckAt": "2026-08-18T10:31:11.867Z",
-  "lastAttemptAt": "2026-08-18T10:31:10.577Z",
+  "lastCheckAt": "2026-08-18T11:00:03.041Z",
+  "lastAttemptAt": "2026-08-18T11:00:02.403Z",
   "seenIds": [
     "L750SV",
     "L441SZ",
@@ -18,7 +18,6 @@
     "HGR46K",
     "L307LK",
     "L731RK",
-    "HSP91N",
     "Z439BS",
     "P821PG",
     "Z452NT",
@@ -183,12 +182,6 @@
       "model": "Yaris",
       "monthlyPrice": 339,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L731RK&condition=occasion"
-    },
-    "HSP91N": {
-      "brand": "Renault",
-      "model": "Clio",
-      "monthlyPrice": 339,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=HSP91N&condition=occasion"
     },
     "Z439BS": {
       "brand": "Toyota",
@@ -595,5 +588,5 @@
   },
   "consecutiveFailures": 0,
   "failureAlertSent": false,
-  "nextDayIntervalMinutes": 20
+  "nextDayIntervalMinutes": 40
 }
