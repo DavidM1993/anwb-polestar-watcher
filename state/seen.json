@@ -1,6 +1,6 @@
 {
-  "lastCheckAt": "2026-08-19T10:31:11.722Z",
-  "lastAttemptAt": "2026-08-19T10:31:10.881Z",
+  "lastCheckAt": "2026-08-19T10:59:40.744Z",
+  "lastAttemptAt": "2026-08-19T10:59:40.053Z",
   "seenIds": [
     "R179KJ",
     "L441SZ",
@@ -22,7 +22,7 @@
     "T488PL",
     "P821PG",
     "HZK31Z",
-    "L326JJ",
+    "K335ZP",
     "L204NP",
     "L620GD",
     "R480SJ",
@@ -210,11 +210,11 @@
       "monthlyPrice": 354,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=HZK31Z&condition=occasion"
     },
-    "L326JJ": {
+    "K335ZP": {
       "brand": "Toyota",
       "model": "Yaris",
-      "monthlyPrice": 359,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L326JJ&condition=occasion"
+      "monthlyPrice": 369,
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=K335ZP&condition=occasion"
     },
     "L204NP": {
       "brand": "Skoda",
@@ -609,5 +609,5 @@
   },
   "consecutiveFailures": 0,
   "failureAlertSent": false,
-  "nextDayIntervalMinutes": 20
+  "nextDayIntervalMinutes": 40
 }
