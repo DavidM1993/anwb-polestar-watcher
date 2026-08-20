@@ -1,6 +1,6 @@
 {
-  "lastCheckAt": "2026-08-20T09:37:07.923Z",
-  "lastAttemptAt": "2026-08-20T09:37:06.402Z",
+  "lastCheckAt": "2026-08-20T10:04:51.536Z",
+  "lastAttemptAt": "2026-08-20T10:04:50.343Z",
   "seenIds": [
     "K556ZZ",
     "L750SV",
@@ -40,7 +40,6 @@
     "P549SK",
     "N543TX",
     "S640BX",
-    "L395GR",
     "L178HS",
     "K268DS",
     "T572DX",
@@ -71,6 +70,7 @@
     "L287VR",
     "N420DJ",
     "P493XR",
+    "L857SN",
     "L886ZS",
     "P193TN",
     "N770KR",
@@ -328,12 +328,6 @@
       "monthlyPrice": 409,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=S640BX&condition=occasion"
     },
-    "L395GR": {
-      "brand": "Nissan",
-      "model": "QASHQAI",
-      "monthlyPrice": 414,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L395GR&condition=occasion"
-    },
     "L178HS": {
       "brand": "Kia",
       "model": "e-Niro",
@@ -514,6 +508,12 @@
       "monthlyPrice": 519,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=P493XR&condition=occasion"
     },
+    "L857SN": {
+      "brand": "Nissan",
+      "model": "QASHQAI",
+      "monthlyPrice": 519,
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L857SN&condition=occasion"
+    },
     "L886ZS": {
       "brand": "Skoda",
       "model": "Enyaq iV",
@@ -679,5 +679,5 @@
   },
   "consecutiveFailures": 0,
   "failureAlertSent": false,
-  "nextDayIntervalMinutes": 20
+  "nextDayIntervalMinutes": 40
 }
