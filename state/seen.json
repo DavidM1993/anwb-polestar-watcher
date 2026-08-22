@@ -1,6 +1,6 @@
 {
-  "lastCheckAt": "2026-08-22T10:29:53.763Z",
-  "lastAttemptAt": "2026-08-22T10:29:52.165Z",
+  "lastCheckAt": "2026-08-22T10:57:14.781Z",
+  "lastAttemptAt": "2026-08-22T10:57:13.201Z",
   "seenIds": [
     "N546NP",
     "J736LL",
@@ -756,5 +756,5 @@
   },
   "consecutiveFailures": 0,
   "failureAlertSent": false,
-  "nextDayIntervalMinutes": 20
+  "nextDayIntervalMinutes": 40
 }
