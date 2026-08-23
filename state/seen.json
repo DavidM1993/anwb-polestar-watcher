@@ -1,6 +1,6 @@
 {
-  "lastCheckAt": "2026-08-23T07:34:57.517Z",
-  "lastAttemptAt": "2026-08-23T07:34:56.846Z",
+  "lastCheckAt": "2026-08-23T07:59:22.884Z",
+  "lastAttemptAt": "2026-08-23T07:59:22.040Z",
   "seenIds": [
     "L618VB",
     "L750SV",
@@ -763,5 +763,5 @@
   },
   "consecutiveFailures": 0,
   "failureAlertSent": false,
-  "nextDayIntervalMinutes": 20
+  "nextDayIntervalMinutes": 40
 }
