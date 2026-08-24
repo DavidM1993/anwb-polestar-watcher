@@ -1,6 +1,6 @@
 {
-  "lastCheckAt": "2026-08-24T13:19:20.877Z",
-  "lastAttemptAt": "2026-08-24T13:19:20.036Z",
+  "lastCheckAt": "2026-08-24T14:08:32.715Z",
+  "lastAttemptAt": "2026-08-24T14:08:31.101Z",
   "seenIds": [
     "JPP92V",
     "J736LL",
@@ -74,12 +74,12 @@
     "L287VR",
     "P656XT",
     "GZT78N",
-    "R983DD",
     "P493XR",
     "L857SN",
     "L886ZS",
     "P506BJ",
     "P626BP",
+    "L405TJ",
     "T128ZX",
     "T066KG",
     "N770KR",
@@ -541,12 +541,6 @@
       "monthlyPrice": 509,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=GZT78N&condition=occasion"
     },
-    "R983DD": {
-      "brand": "Hyundai",
-      "model": "Tucson",
-      "monthlyPrice": 509,
-      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=R983DD&condition=occasion"
-    },
     "P493XR": {
       "brand": "Opel",
       "model": "Grandland",
@@ -576,6 +570,12 @@
       "model": "ID.4",
       "monthlyPrice": 519,
       "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=P626BP&condition=occasion"
+    },
+    "L405TJ": {
+      "brand": "Hyundai",
+      "model": "Tucson",
+      "monthlyPrice": 529,
+      "url": "https://www.anwb.nl/auto/private-lease/anwb-private-lease/aanvragen/samenstelling-auto-en-contract?carId=L405TJ&condition=occasion"
     },
     "T128ZX": {
       "brand": "Lynk & Co",
