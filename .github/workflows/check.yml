@@ -1,9 +1,8 @@
 name: Check ANWB for Polestar
 
 on:
-  schedule:
-    # Every 20 minutes UTC; Amsterdam gate decides if a real check is due.
-    - cron: "*/20 * * * *"
+  # schedule:
+  #   - cron: "*/20 * * * *"
   workflow_dispatch:
     inputs:
       test:
@@ -53,8 +52,6 @@ jobs:
             node src/main.js
           fi
 
-      # Always persist state after a real check so failure counters survive
-      # across runs. Volume is low (~20 commits/day) because of the Amsterdam gate.
       - name: Commit state
         if: steps.gate.outputs.should_run == 'true'
         run: |
